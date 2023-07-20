@@ -1,0 +1,19 @@
+.form__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  transition: opacity 2s ease;
+  margin-block-start: -10px;
+}
+
+@media (min-width: 1280px) {
+  .form__link {
+    margin-block-start: -15px;
+  }
+}
+
+.form__link:hover {
+  opacity: 0.6;
+}

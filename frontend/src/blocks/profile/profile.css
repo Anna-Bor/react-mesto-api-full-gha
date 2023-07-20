@@ -1,0 +1,14 @@
+.profile {
+  padding-top: 25px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+@media (min-width: 1280px) {
+  .profile {
+    flex-flow: row;
+    column-gap: 30px;
+    padding-top: 32px;
+  }
+}

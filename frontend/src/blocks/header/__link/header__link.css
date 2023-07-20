@@ -1,0 +1,14 @@
+.header__link {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  padding-inline-end: 27px;
+}
+
+@media (min-width: 1280px) {
+  .header__link {
+    padding-inline-end: 0;
+  }
+}

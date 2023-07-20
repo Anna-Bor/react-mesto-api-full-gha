@@ -1,0 +1,11 @@
+.profile__header {
+  width: fit-content;
+  position: relative;
+  margin-top: 10px;
+}
+
+@media (min-width: 1280px) {
+  .profile__header {
+    margin-top: 30px;
+  }
+}

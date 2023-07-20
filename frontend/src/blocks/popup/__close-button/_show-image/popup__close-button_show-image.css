@@ -1,0 +1,10 @@
+.popup__close-button_show-image {
+  top: -36px;
+}
+
+@media (min-width: 1280px) {
+  .popup__close-button_show-image {
+    top: -40px;
+    right: -40px;
+  }
+}
